@@ -1,4 +1,4 @@
-# Project 01 - My Paint
+# Project 02 - My Paint
 
 Thành viên nhóm:
 
