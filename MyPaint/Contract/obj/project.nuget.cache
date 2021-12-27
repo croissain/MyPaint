@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6sk6YTRBhhml1gvPuqctIUJalLIREtsKAf1UgAKBxHkYgmopO0W/ROq9++hUCu/1SjUXPH8Sm+fSL30nSB1GTQ==",
+  "success": true,
+  "projectFilePath": "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\Contract\\Contract.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MANH\\.nuget\\packages\\materialdesigncolors\\2.0.4\\materialdesigncolors.2.0.4.nupkg.sha512",
+    "C:\\Users\\MANH\\.nuget\\packages\\materialdesignthemes\\4.3.0\\materialdesignthemes.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -13,19 +13,19 @@
                      TextOptions.TextRenderingMode="Auto"
                      FontFamily="{DynamicResource MaterialDesignFont}"
                      mc:Ignorable="d"
-                     Title="MainWindow"
-                     Height="450"
+                     Title="My Paint"
+                     Height="550"
                      Width="810"
                      Loaded="RibbonWindow_Loaded">
-    <StackPanel>
-        <Fluent:Ribbon>
+    <DockPanel LastChildFill="True">
+        <Fluent:Ribbon DockPanel.Dock="Top">
             <Fluent:Ribbon.Menu>
                 <Fluent:Backstage Header="File"
                                   Background="Salmon">
                     <Fluent:BackstageTabControl Background="White">
                         <Fluent:BackstageTabItem Header="New">
                             <Grid>
-                                
+
                             </Grid>
                         </Fluent:BackstageTabItem>
                         <Fluent:BackstageTabItem Header="Exit">
@@ -223,108 +223,9 @@
                     </Fluent:SplitButton>
                 </Fluent:RibbonGroupBox>-->
                 <Fluent:RibbonGroupBox Header="Shapes">
-                    <!--why the f*ck scrollview doesn't work-->
-                    <ScrollViewer Height="66">
-                        <WrapPanel Orientation="Horizontal"
-                                   Height="66"
-                                   Width="110">
-                            <Fluent:Button x:Name="shapeLine"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="ChartLineVariant" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapeCurve"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="Gesture" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapeEllipse"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="EllipseOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapeRectangle"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="RectangleOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapeTriangle"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="TriangleOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapeDiamond"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="RhombusOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapePentagon"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="PentagonOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapeHexagon"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="HexagonOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapeStart"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="StarOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapeHeart"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="HeartOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <!--test scroll-->
-                            <!--<Fluent:Button x:Name="shapeHeart1"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="HeartOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapeHeart2"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="HeartOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapeHeart3"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="HeartOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapeHeart4"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="HeartOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapeHeart5"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="HeartOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>
-                            <Fluent:Button x:Name="shapeHeart6"
-                                           SizeDefinition="Small">
-                                <Fluent:Button.LargeIcon>
-                                    <materialDesign:PackIcon Kind="HeartOutline" />
-                                </Fluent:Button.LargeIcon>
-                            </Fluent:Button>-->
+                    <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                        <WrapPanel Name="prototypesWrapPanel" Orientation="Horizontal"
+                          Height="Auto" Width="110" >
                         </WrapPanel>
                     </ScrollViewer>
                     <ComboBox Name="Stoke"
@@ -418,159 +319,38 @@
                     </Fluent:SplitButton>
                 </Fluent:RibbonGroupBox>
                 <Fluent:RibbonGroupBox Header="Colors">
-                    <Grid Margin="4,4"
-                          Height="58"
+                    <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                    <WrapPanel Margin="4,4"
+                          Height="Auto" Width="148"
                           x:Name="colors">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="1*" />
-                            <RowDefinition Height="1*" />
-                        </Grid.RowDefinitions>
-
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="1*" />
-                            <ColumnDefinition Width="1*" />
-                            <ColumnDefinition Width="1*" />
-                            <ColumnDefinition Width="1*" />
-                            <ColumnDefinition Width="1*" />
-                            <ColumnDefinition Width="1*" />
-                        </Grid.ColumnDefinitions>
-
-                        <Button x:Name="Black"
-                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                                Height="20"
-                                Width="20"
-                                Margin="2,0"
-                                Background="Black">
-                        </Button>
-                        
-                        <Button x:Name="White"
-                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                                Height="20"
-                                Width="20"
-                                Grid.Column="0"
-                                Grid.Row="1"
-                                Background="White">
-                        </Button>
-
-                        <Button x:Name="Red"
-                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                                Height="20"
-                                Width="20"
-                                Margin="2,0"
-                                Grid.Column="1"
-                                Grid.Row="0"
-                                Background="#FF968A">
-                        </Button>
-
-                        <Button x:Name="Orage"
-                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                                Height="20"
-                                Width="20"
-                                Margin="2,0"
-                                Grid.Column="2"
-                                Grid.Row="0"
-                                Background="#FFC8A2">
-                        </Button>
-
-                        <Button x:Name="Yellow"
-                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                                Height="20"
-                                Width="20"
-                                Margin="2,0"
-                                Grid.Column="3"
-                                Grid.Row="0"
-                                Background="#FFFFB5">
-                        </Button>
-
-                        <Button x:Name="Pink"
-                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                                Height="20"
-                                Width="20"
-                                Margin="2,0"
-                                Grid.Column="4"
-                                Grid.Row="0"
-                                Background="#FEE1E2">
-                        </Button>
-
-                        <Button x:Name="Purple"
-                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                                Height="20"
-                                Width="20"
-                                Margin="2,0"
-                                Grid.Column="5"
-                                Grid.Row="0"
-                                Background="#CBAACB">
-                        </Button>
-
-                        <Button x:Name="Blue"
-                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                                Height="20"
-                                Width="20"
-                                Margin="2,0"
-                                Grid.Column="1"
-                                Grid.Row="1"
-                                Background="#FF89BBE4">
-                        </Button>
-
-                        <Button x:Name="Cyan"
-                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                                Height="20"
-                                Width="20"
-                                Margin="2,0"
-                                Grid.Column="2"
-                                Grid.Row="1"
-                                Background="#FFAFE8DB">
-                        </Button>
-
-                        <Button x:Name="Green"
-                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                                Height="20"
-                                Width="20"
-                                Margin="2,0"
-                                Grid.Column="3"
-                                Grid.Row="1"
-                                Background="#FFB2E8AF">
-                        </Button>
-
-                        <Button x:Name="Gray"
-                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                                Height="20"
-                                Width="20"
-                                Margin="2,0"
-                                Grid.Column="4"
-                                Grid.Row="1"
-                                Background="#FFCFC0B9">
-                        </Button>
-
-                        <Button x:Name="Transparent"
-                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                                Height="20"
-                                Width="20"
-                                Margin="2,0"
-                                Grid.Column="5"
-                                Grid.Row="1"
-                                Background="#00B39DDB">
-                        </Button>
-                    </Grid>
-                        <Fluent:Button x:Name="moreColorButton"
+                    </WrapPanel>
+                    </ScrollViewer>
+                    <Fluent:Button x:Name="moreColorButton"
                                        Header="More color"
                                        SizeDefinition="Large">
 
-                            <Fluent:Button.LargeIcon>
-                                <materialDesign:PackIcon Kind="Palette"
+                        <Fluent:Button.LargeIcon>
+                            <materialDesign:PackIcon Kind="Palette"
                                                          VerticalAlignment="Center"
                                                          HorizontalAlignment="Center"
                                                          Height="30"
                                                          Width="30" />
-                            </Fluent:Button.LargeIcon>
-                        </Fluent:Button>
+                        </Fluent:Button.LargeIcon>
+                    </Fluent:Button>
                 </Fluent:RibbonGroupBox>
             </Fluent:RibbonTabItem>
             <Fluent:RibbonTabItem Header="View">
-
             </Fluent:RibbonTabItem>
         </Fluent:Ribbon>
-        <Canvas>
-        </Canvas>
-    </StackPanel>
+        <ScrollViewer HorizontalScrollBarVisibility="Visible" Grid.Row="1">
+            <Grid>
+                <Canvas x:Name ="paintCanvas" Background="White" Grid.Row="1"></Canvas>
+                <Border Background="Transparent" MouseDown="paint_MouseDown" 
+                MouseMove="paint_MouseMove"
+                MouseUp="paint_MouseUp">
+
+                </Border>
+            </Grid>
+        </ScrollViewer>
+    </DockPanel>
 </Fluent:RibbonWindow>

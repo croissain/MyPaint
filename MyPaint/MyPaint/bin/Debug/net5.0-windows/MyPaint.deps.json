@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v5.0": {
       "MyPaint/1.0.0": {
         "dependencies": {
+          "Contract": "1.0.0",
           "Fluent.Ribbon": "9.0.0",
+          "Line2D": "1.0.0",
           "MaterialDesignColors": "2.0.4",
           "MaterialDesignThemes": "4.3.0"
         },
@@ -73,6 +75,23 @@
             "fileVersion": "5.0.220.61120"
           }
         }
+      },
+      "Contract/1.0.0": {
+        "dependencies": {
+          "MaterialDesignThemes": "4.3.0"
+        },
+        "runtime": {
+          "Contract.dll": {}
+        }
+      },
+      "Line2D/1.0.0": {
+        "dependencies": {
+          "Contract": "1.0.0",
+          "MaterialDesignThemes": "4.3.0"
+        },
+        "runtime": {
+          "Line2D.dll": {}
+        }
       }
     }
   },
@@ -123,6 +142,16 @@
       "sha512": "sha512-/UM3UK1dXKl8Ybysg/21gM4S8DJgkR+yLU8JwqCVbuNqQNImelntgYFAN5QxR8sJJ1kMx//hOUdf0lltosi8cQ==",
       "path": "system.text.json/5.0.1",
       "hashPath": "system.text.json.5.0.1.nupkg.sha512"
+    },
+    "Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Line2D/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

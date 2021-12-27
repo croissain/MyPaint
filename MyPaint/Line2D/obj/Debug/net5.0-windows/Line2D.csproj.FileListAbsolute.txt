@@ -1,0 +1,15 @@
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\obj\Debug\net5.0-windows\Line2D.csproj.AssemblyReference.cache
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\obj\Debug\net5.0-windows\Line2D.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\obj\Debug\net5.0-windows\Line2D.AssemblyInfoInputs.cache
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\obj\Debug\net5.0-windows\Line2D.AssemblyInfo.cs
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\obj\Debug\net5.0-windows\Line2D.csproj.CoreCompileInputs.cache
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\bin\Debug\net5.0-windows\Line2D.deps.json
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\bin\Debug\net5.0-windows\Line2D.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\bin\Debug\net5.0-windows\ref\Line2D.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\bin\Debug\net5.0-windows\Line2D.pdb
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\bin\Debug\net5.0-windows\Contract.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\bin\Debug\net5.0-windows\Contract.pdb
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\obj\Debug\net5.0-windows\Line2D.csproj.CopyComplete
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\obj\Debug\net5.0-windows\Line2D.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\obj\Debug\net5.0-windows\ref\Line2D.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Line2D\obj\Debug\net5.0-windows\Line2D.pdb
