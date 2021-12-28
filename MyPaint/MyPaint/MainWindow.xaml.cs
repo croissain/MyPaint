@@ -46,12 +46,12 @@ namespace MyPaint
             //Tải tất cả các shape từ file .dll
             string folder = AppDomain.CurrentDomain.BaseDirectory;
             var fis = new DirectoryInfo(folder).GetFiles("*.dll");
-            
+
             foreach (FileInfo f in fis)
             {
                 //Assembly assembly = Assembly.LoadFile(f.FullName);
-
                 Assembly assembly = AppDomain.CurrentDomain.Load(AssemblyName.GetAssemblyName(f.FullName));
+
                 var types = assembly.GetTypes();
 
                 foreach (var type in types)

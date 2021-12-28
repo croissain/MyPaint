@@ -18,7 +18,7 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "Fluent.Ribbon/9.0.0": {
+      "Fluent.Ribbon/9.0.1": {
         "type": "package",
         "dependencies": {
           "ControlzEx": "[5.0.1, 6.0.0)"
@@ -138,15 +138,15 @@
         "logo-mini.png"
       ]
     },
-    "Fluent.Ribbon/9.0.0": {
-      "sha512": "29N3G7EM1WFgNofj4wEaufFaB8Iakjn/CZskq3kHKR93myxJ2iV0k6xLH3rhg9l/QATboPExV0WONT/ZfQcOVg==",
+    "Fluent.Ribbon/9.0.1": {
+      "sha512": "r+mg5UULi+lAqSm4HwrqblD6427/uNhKVwOkokGWld6nCKcQ4GKZlrZlAFq4Mhg6w+vcIAYO9zP4+pOVJhTIpA==",
       "type": "package",
-      "path": "fluent.ribbon/9.0.0",
+      "path": "fluent.ribbon/9.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Logo.png",
-        "fluent.ribbon.9.0.0.nupkg.sha512",
+        "fluent.ribbon.9.0.1.nupkg.sha512",
         "fluent.ribbon.nuspec",
         "lib/net452/Fluent.dll",
         "lib/net452/Fluent.pdb",
@@ -279,7 +279,7 @@
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
       "Contract >= 1.0.0",
-      "Fluent.Ribbon >= 9.0.0",
+      "Fluent.Ribbon >= 9.0.1",
       "Line2D >= 1.0.0",
       "MaterialDesignColors >= 2.0.4",
       "MaterialDesignThemes >= 4.3.0"
@@ -333,7 +333,7 @@
         "dependencies": {
           "Fluent.Ribbon": {
             "target": "Package",
-            "version": "[9.0.0, )"
+            "version": "[9.0.1, )"
           },
           "MaterialDesignColors": {
             "target": "Package",
