@@ -1,0 +1,14 @@
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\bin\Debug\net5.0-windows\Rectangle2D.deps.json
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\bin\Debug\net5.0-windows\Rectangle2D.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\bin\Debug\net5.0-windows\ref\Rectangle2D.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\bin\Debug\net5.0-windows\Rectangle2D.pdb
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\bin\Debug\net5.0-windows\Contract.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\bin\Debug\net5.0-windows\Contract.pdb
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\obj\Debug\net5.0-windows\Rectangle2D.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\obj\Debug\net5.0-windows\Rectangle2D.AssemblyInfoInputs.cache
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\obj\Debug\net5.0-windows\Rectangle2D.AssemblyInfo.cs
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\obj\Debug\net5.0-windows\Rectangle2D.csproj.CoreCompileInputs.cache
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\obj\Debug\net5.0-windows\Rectangle2D.csproj.CopyComplete
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\obj\Debug\net5.0-windows\Rectangle2D.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\obj\Debug\net5.0-windows\ref\Rectangle2D.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Rectangle2D\obj\Debug\net5.0-windows\Rectangle2D.pdb

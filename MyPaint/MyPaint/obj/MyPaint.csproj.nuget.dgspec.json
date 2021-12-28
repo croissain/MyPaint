@@ -179,7 +179,7 @@
           "dependencies": {
             "Fluent.Ribbon": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.1, )"
             },
             "MaterialDesignColors": {
               "target": "Package",

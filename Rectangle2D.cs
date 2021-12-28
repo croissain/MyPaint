@@ -47,7 +47,7 @@ namespace Rectangle2D
 
         public IShape Clone()
         {
-            return new Rectangle2D() { _Brush = new SolidColorBrush(Colors.Red), Thickness = 2 };
+            return new Rectangle2D() { _Brush = new SolidColorBrush(Colors.Red), Thickness = 2};
         }
     }
 }
