@@ -20,6 +20,7 @@ namespace Contract
         public int IconKind => (int)PackIconKind.ChartLineVariant;
 
         public Brush _Brush{ get; set; }
+        public int Thickness { get; set; }
 
         public void HandleStart(double x, double y)
         {
@@ -41,7 +42,7 @@ namespace Contract
                 Y1 = Y,
                 X2 = X,
                 Y2 = Y,
-                StrokeThickness = 1,
+                StrokeThickness = Thickness,
                 Stroke = _Brush,
             };
 
@@ -50,7 +51,7 @@ namespace Contract
 
         public IShape Clone()
         {
-            return new Point2D() { _Brush = new SolidColorBrush(Colors.Red) };
+            return new Point2D() { _Brush = new SolidColorBrush(Colors.Red), Thickness = 2 };
         }
     }
 }

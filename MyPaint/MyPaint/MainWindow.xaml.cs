@@ -29,8 +29,7 @@ namespace MyPaint
     {
         public MainWindow()
         {
-            InitializeComponent();
-            
+            InitializeComponent();         
         }
 
         Dictionary<string, IShape> _prototypes = new Dictionary<string, IShape>();
@@ -40,6 +39,7 @@ namespace MyPaint
         IShape _preview;
         string _selectedShapeName = "";
         Brush _selectedColor = new SolidColorBrush(Colors.Red);
+        int _selectedSize = 2;
 
         private void RibbonWindow_Loaded(object sender, RoutedEventArgs e)
         {
@@ -78,8 +78,8 @@ namespace MyPaint
                 packIcon.Kind = (PackIconKind)shape.IconKind;
                 button.LargeIcon = packIcon;
 
-                button.Click += prototypeButton_Click;
-                prototypesWrapPanel.Children.Add(button);
+                button.Click += ChooseShapeButton_Click;
+                ChooseShapeWrapPanel.Children.Add(button);
             }
 
             //Tạo ra các button colors
@@ -90,7 +90,7 @@ namespace MyPaint
                 //button.Style = StaticResource.MaterialDesignFloatingActionMiniLightButton;
                 button.Height = 20;
                 button.Width = 20;
-                button.Margin = new Thickness(2);
+                button.Margin = new Thickness(_selectedSize);
                 button.Background = new SolidColorBrush((Color)color.GetValue(null, null));
 
                 button.Click += colorButton_Click;
@@ -100,11 +100,19 @@ namespace MyPaint
             _selectedShapeName = _prototypes.First().Value.Name;
             _preview = _prototypes[_selectedShapeName].Clone();
             _preview._Brush = _selectedColor;
+            _preview.Thickness = _selectedSize;
         }
 
         private void _mainRibbon_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            
+        }
 
+        private void ChooseSize_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var size = ChooseSize.SelectedValue as Fluent.GalleryItem;
+            _selectedSize = Int32.Parse(size.Tag as string);
+            _preview.Thickness = _selectedSize;
         }
 
         private void OnLauncherButtonClick(object sender, RoutedEventArgs e)
@@ -127,13 +135,12 @@ namespace MyPaint
 
         }
 
-        private void prototypeButton_Click(object sender, RoutedEventArgs e)
+        private void ChooseShapeButton_Click(object sender, RoutedEventArgs e)
         {
             _selectedShapeName = (sender as Button).Tag as string;
 
             _preview = _prototypes[_selectedShapeName].Clone();
             _preview._Brush = _selectedColor;
-            //MessageBox.Show(_selectedShapeName);
         }
 
         private void colorButton_Click(object sender, RoutedEventArgs e)
@@ -188,6 +195,7 @@ namespace MyPaint
             // Sinh ra đối tượng mẫu kế
             _preview = _prototypes[_selectedShapeName].Clone();
             _preview._Brush = _selectedColor;
+            _preview.Thickness = _selectedSize;
 
             // Ve lai Xoa toan bo
             paintCanvas.Children.Clear();
@@ -200,5 +208,6 @@ namespace MyPaint
             }
 
         }
+
     }
 }

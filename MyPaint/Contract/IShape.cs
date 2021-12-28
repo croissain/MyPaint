@@ -9,6 +9,7 @@ namespace Contract
         string Name { get; }
         int IconKind { get; }
         Brush _Brush { get; set; }
+        int Thickness { get; set; }
 
 
         void HandleStart(double x, double y);
