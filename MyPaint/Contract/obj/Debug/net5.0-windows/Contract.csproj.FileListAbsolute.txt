@@ -9,3 +9,4 @@ D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Contract\obj\Debug\net5.0-window
 D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\Contract.dll
 D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\ref\Contract.dll
 D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\Contract.pdb
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\Contract.csproj.AssemblyReference.cache
