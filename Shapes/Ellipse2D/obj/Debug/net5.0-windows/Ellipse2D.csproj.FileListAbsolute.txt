@@ -1,0 +1,14 @@
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\obj\Debug\net5.0-windows\Ellipse2D.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\obj\Debug\net5.0-windows\Ellipse2D.AssemblyInfoInputs.cache
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\obj\Debug\net5.0-windows\Ellipse2D.AssemblyInfo.cs
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\obj\Debug\net5.0-windows\Ellipse2D.csproj.CoreCompileInputs.cache
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\bin\Debug\net5.0-windows\Ellipse2D.deps.json
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\bin\Debug\net5.0-windows\Ellipse2D.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\bin\Debug\net5.0-windows\ref\Ellipse2D.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\bin\Debug\net5.0-windows\Ellipse2D.pdb
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\bin\Debug\net5.0-windows\Contract.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\bin\Debug\net5.0-windows\Contract.pdb
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\obj\Debug\net5.0-windows\Ellipse2D.csproj.CopyComplete
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\obj\Debug\net5.0-windows\Ellipse2D.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\obj\Debug\net5.0-windows\ref\Ellipse2D.dll
+D:\HOC_KI_5\LT_windows\Project2\MyPaint\Shapes\Ellipse2D\obj\Debug\net5.0-windows\Ellipse2D.pdb
