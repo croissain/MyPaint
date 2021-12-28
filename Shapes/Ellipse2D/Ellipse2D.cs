@@ -6,16 +6,16 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Shapes;
 
-namespace Rectangle2D
+namespace Ellipse2D
 {
-    public class Rectangle2D : IShape
+    public class Ellipse2D : IShape
     {
         private Point2D _leftTop = new Point2D();
         private Point2D _rightBottom = new Point2D();
 
-        public string Name => "Rectangle";
+        public string Name => "Ellipse";
 
-        public int IconKind => (int)PackIconKind.RectangleOutline;
+        public int IconKind => (int)PackIconKind.EllipseOutline;
         public Brush _Brush { get; set; }
         public int Thickness { get; set; }
 
@@ -23,7 +23,7 @@ namespace Rectangle2D
         {
             var witdh = _rightBottom.X - _leftTop.X;
             var height = _rightBottom.Y - _leftTop.Y;
-            var rect = new Rectangle()
+            var ellipse = new Ellipse()
             {
                 Width = witdh > 0 ? witdh : -witdh,
                 Height = height > 0 ? height : -height,
@@ -33,41 +33,43 @@ namespace Rectangle2D
 
             if (witdh > 0 && height > 0)
             {
-                Canvas.SetLeft(rect, _leftTop.X);
-                Canvas.SetTop(rect, _leftTop.Y);
+                Canvas.SetLeft(ellipse, _leftTop.X);
+                Canvas.SetTop(ellipse, _leftTop.Y);
             }
-            else if(witdh > 0 && height < 0)
+            else if (witdh > 0 && height < 0)
             {
-                Canvas.SetLeft(rect, _leftTop.X);
-                Canvas.SetTop(rect, _rightBottom.Y);
+                Canvas.SetLeft(ellipse, _leftTop.X);
+                Canvas.SetTop(ellipse, _rightBottom.Y);
             }
-            else if(witdh < 0 && height > 0)
+            else if (witdh < 0 && height > 0)
             {
-                Canvas.SetLeft(rect, _rightBottom.X);
-                Canvas.SetTop(rect, _leftTop.Y);
+                Canvas.SetLeft(ellipse, _rightBottom.X);
+                Canvas.SetTop(ellipse, _leftTop.Y);
             }
             else
             {
-                Canvas.SetLeft(rect, _rightBottom.X);
-                Canvas.SetTop(rect, _rightBottom.Y);
+                Canvas.SetLeft(ellipse, _rightBottom.X);
+                Canvas.SetTop(ellipse, _rightBottom.Y);
             }
 
-            return rect;
+            return ellipse;
         }
 
         public void HandleStart(double x, double y)
         {
-            _leftTop = new Point2D() { X = x, Y = y };
+            _leftTop.X = x;
+            _leftTop.Y = y;
         }
 
         public void HandleEnd(double x, double y)
         {
-            _rightBottom = new Point2D() { X = x, Y = y };
+            _rightBottom.X = x;
+            _rightBottom.Y = y;
         }
 
         public IShape Clone()
         {
-            return new Rectangle2D() { _Brush = new SolidColorBrush(Colors.Red), Thickness = 2 };
+            return new Ellipse2D() { _Brush = new SolidColorBrush(Colors.Red), Thickness = 2 };
         }
     }
 }
