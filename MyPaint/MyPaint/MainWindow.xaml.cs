@@ -30,7 +30,7 @@ namespace MyPaint
         public MainWindow()
         {
             InitializeComponent();
-            
+
         }
 
         Dictionary<string, IShape> _prototypes = new Dictionary<string, IShape>();
@@ -46,7 +46,7 @@ namespace MyPaint
             //Tải tất cả các shape từ file .dll
             string folder = AppDomain.CurrentDomain.BaseDirectory;
             var fis = new DirectoryInfo(folder).GetFiles("*.dll");
-            
+
             foreach (FileInfo f in fis)
             {
                 //Assembly assembly = Assembly.LoadFile(f.FullName);

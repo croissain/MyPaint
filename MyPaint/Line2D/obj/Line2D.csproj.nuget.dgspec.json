@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\Line2D\\Line2D.csproj": {}
+    "D:\\School\\WindowProgramming\\Project02\\masterProj\\MyPaint\\MyPaint\\Line2D\\Line2D.csproj": {}
   },
   "projects": {
-    "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\Contract\\Contract.csproj": {
+    "D:\\School\\WindowProgramming\\Project02\\masterProj\\MyPaint\\MyPaint\\Contract\\Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\Contract\\Contract.csproj",
+        "projectUniqueName": "D:\\School\\WindowProgramming\\Project02\\masterProj\\MyPaint\\MyPaint\\Contract\\Contract.csproj",
         "projectName": "Contract",
-        "projectPath": "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\Contract\\Contract.csproj",
-        "packagesPath": "C:\\Users\\MANH\\.nuget\\packages\\",
-        "outputPath": "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\Contract\\obj\\",
+        "projectPath": "D:\\School\\WindowProgramming\\Project02\\masterProj\\MyPaint\\MyPaint\\Contract\\Contract.csproj",
+        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
+        "outputPath": "D:\\School\\WindowProgramming\\Project02\\masterProj\\MyPaint\\MyPaint\\Contract\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,17 +72,22 @@
         }
       }
     },
-    "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\Line2D\\Line2D.csproj": {
+    "D:\\School\\WindowProgramming\\Project02\\masterProj\\MyPaint\\MyPaint\\Line2D\\Line2D.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\Line2D\\Line2D.csproj",
+        "projectUniqueName": "D:\\School\\WindowProgramming\\Project02\\masterProj\\MyPaint\\MyPaint\\Line2D\\Line2D.csproj",
         "projectName": "Line2D",
-        "projectPath": "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\Line2D\\Line2D.csproj",
-        "packagesPath": "C:\\Users\\MANH\\.nuget\\packages\\",
-        "outputPath": "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\Line2D\\obj\\",
+        "projectPath": "D:\\School\\WindowProgramming\\Project02\\masterProj\\MyPaint\\MyPaint\\Line2D\\Line2D.csproj",
+        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
+        "outputPath": "D:\\School\\WindowProgramming\\Project02\\masterProj\\MyPaint\\MyPaint\\Line2D\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,8 +101,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\Contract\\Contract.csproj": {
-                "projectPath": "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\Contract\\Contract.csproj"
+              "D:\\School\\WindowProgramming\\Project02\\masterProj\\MyPaint\\MyPaint\\Contract\\Contract.csproj": {
+                "projectPath": "D:\\School\\WindowProgramming\\Project02\\masterProj\\MyPaint\\MyPaint\\Contract\\Contract.csproj"
               }
             }
           }

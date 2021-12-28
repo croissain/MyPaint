@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OBYZBCxmJNfCsHVwSABFfGphSAxaddsgf/D/uoCEW+5W497B51PblA1vbCzARm9tbpKgLLjQSG9m8omCUw07zA==",
+  "dgSpecHash": "KiIdH0OlbeqWjnSW4AUMwvx7eEdKZXqo90ChyL1GOMmoCAVjoDqLW3Swa1gzg9bb4uGWt5b4Z+U4fPc7pFFheA==",
   "success": true,
-  "projectFilePath": "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\Line2D\\Line2D.csproj",
+  "projectFilePath": "D:\\School\\WindowProgramming\\Project02\\masterProj\\MyPaint\\MyPaint\\Line2D\\Line2D.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MANH\\.nuget\\packages\\materialdesigncolors\\2.0.4\\materialdesigncolors.2.0.4.nupkg.sha512",
-    "C:\\Users\\MANH\\.nuget\\packages\\materialdesignthemes\\4.3.0\\materialdesignthemes.4.3.0.nupkg.sha512"
+    "C:\\Users\\Admins\\.nuget\\packages\\materialdesigncolors\\2.0.4\\materialdesigncolors.2.0.4.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\materialdesignthemes\\4.3.0\\materialdesignthemes.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

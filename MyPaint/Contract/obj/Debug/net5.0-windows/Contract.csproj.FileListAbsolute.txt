@@ -10,3 +10,15 @@ D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Contract\obj\Debug\net5.0-window
 D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\ref\Contract.dll
 D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\Contract.pdb
 D:\HOC_KI_5\LT_windows\Project2\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\Contract.csproj.AssemblyReference.cache
+D:\School\WindowProgramming\Project02\masterProj\MyPaint\MyPaint\Contract\bin\Debug\net5.0-windows\Contract.deps.json
+D:\School\WindowProgramming\Project02\masterProj\MyPaint\MyPaint\Contract\bin\Debug\net5.0-windows\Contract.dll
+D:\School\WindowProgramming\Project02\masterProj\MyPaint\MyPaint\Contract\bin\Debug\net5.0-windows\ref\Contract.dll
+D:\School\WindowProgramming\Project02\masterProj\MyPaint\MyPaint\Contract\bin\Debug\net5.0-windows\Contract.pdb
+D:\School\WindowProgramming\Project02\masterProj\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\Contract.csproj.AssemblyReference.cache
+D:\School\WindowProgramming\Project02\masterProj\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\WindowProgramming\Project02\masterProj\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\Contract.AssemblyInfoInputs.cache
+D:\School\WindowProgramming\Project02\masterProj\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\Contract.AssemblyInfo.cs
+D:\School\WindowProgramming\Project02\masterProj\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\Contract.csproj.CoreCompileInputs.cache
+D:\School\WindowProgramming\Project02\masterProj\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\Contract.dll
+D:\School\WindowProgramming\Project02\masterProj\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\ref\Contract.dll
+D:\School\WindowProgramming\Project02\masterProj\MyPaint\MyPaint\Contract\obj\Debug\net5.0-windows\Contract.pdb

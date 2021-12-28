@@ -15,8 +15,8 @@
                      mc:Ignorable="d"
                      Title="My Paint"
                      Height="550"
-                     Width="810"
-                     Loaded="RibbonWindow_Loaded">
+                     Width="900"
+                     Loaded="RibbonWindow_Loaded">  
     <DockPanel LastChildFill="True">
         <Fluent:Ribbon DockPanel.Dock="Top">
             <Fluent:Ribbon.Menu>
@@ -35,6 +35,30 @@
                 </Fluent:Backstage>
             </Fluent:Ribbon.Menu>
             <Fluent:RibbonTabItem Header="Home">
+                <Fluent:RibbonGroupBox x:Name="File"
+                                       Header="File">
+                    <Fluent:Button x:Name="newButton"
+                                   Header="New"
+                                   SizeDefinition="Middle,Small">
+                        <Fluent:Button.LargeIcon>
+                            <materialDesign:PackIcon Kind="FileOutline" />
+                        </Fluent:Button.LargeIcon>
+                    </Fluent:Button>
+                    <Fluent:Button x:Name="openButton"
+                                   Header="Open"
+                                   SizeDefinition="Middle,Small">
+                        <Fluent:Button.LargeIcon>
+                            <materialDesign:PackIcon Kind="FolderOpenOutline" />
+                        </Fluent:Button.LargeIcon>
+                    </Fluent:Button>
+                    <Fluent:Button x:Name="saveButton"
+                                   Header="Save"
+                                   SizeDefinition="Middle,Small">
+                        <Fluent:Button.LargeIcon>
+                            <materialDesign:PackIcon Kind="ContentSaveOutline" />
+                        </Fluent:Button.LargeIcon>
+                    </Fluent:Button>
+                </Fluent:RibbonGroupBox>
                 <Fluent:RibbonGroupBox x:Name="Clipboard"
                                        Header="Clipboard"
                                        Icon="{DynamicResource Fluent.Ribbon.Images.DefaultPlaceholder}"
@@ -223,15 +247,17 @@
                     </Fluent:SplitButton>
                 </Fluent:RibbonGroupBox>-->
                 <Fluent:RibbonGroupBox Header="Shapes">
-                    <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
-                        <WrapPanel Name="prototypesWrapPanel" Orientation="Horizontal"
-                          Height="Auto" Width="110" >
+                    <StackPanel Orientation="Horizontal">
+                    <ScrollViewer HorizontalScrollBarVisibility="Disabled"
+                                  VerticalScrollBarVisibility="Auto">
+                        <WrapPanel Name="prototypesWrapPanel"
+                                   Orientation="Horizontal"
+                                   Height="Auto"
+                                   Width="110">
                         </WrapPanel>
                     </ScrollViewer>
-                    <ComboBox Name="Stoke"
+                    <Fluent:ComboBox Name="Stoke"
                               SelectedIndex="0"
-                              Width="80"
-                              IsEditable="True"
                               IsReadOnly="True"
                               Text="Stroke"
                               ToolBar.OverflowMode="Never">
@@ -241,7 +267,7 @@
                                            Foreground="White" />
                             </DataTemplate>
                         </ComboBox.ItemTemplate>
-                    </ComboBox>
+                    </Fluent:ComboBox></StackPanel>
                 </Fluent:RibbonGroupBox>
                 <Fluent:RibbonGroupBox>
                     <Fluent:SplitButton x:Name="viewButton"

@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "sOMj16H6MTER8rN3ho2hCtbYU5KP6qvug5bEZSr3y5jMkFHBEI/KOUDptYpSvQdGNX6RNmhcCfDXbf0/4g1vbg==",
+  "dgSpecHash": "wOXMR/5nAios423SMQLvkexMhlQCZLLv2lamGOzDhvncF8jQcq8BSc/kw9Imexo5HSWpPPSHejQcCsSRkYcYUg==",
   "success": true,
-  "projectFilePath": "D:\\HOC_KI_5\\LT_windows\\Project2\\MyPaint\\MyPaint\\MyPaint\\MyPaint.csproj",
+  "projectFilePath": "D:\\School\\WindowProgramming\\Project02\\masterProj\\MyPaint\\MyPaint\\MyPaint\\MyPaint.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MANH\\.nuget\\packages\\controlzex\\5.0.1\\controlzex.5.0.1.nupkg.sha512",
-    "C:\\Users\\MANH\\.nuget\\packages\\fluent.ribbon\\9.0.0\\fluent.ribbon.9.0.0.nupkg.sha512",
-    "C:\\Users\\MANH\\.nuget\\packages\\materialdesigncolors\\2.0.4\\materialdesigncolors.2.0.4.nupkg.sha512",
-    "C:\\Users\\MANH\\.nuget\\packages\\materialdesignthemes\\4.3.0\\materialdesignthemes.4.3.0.nupkg.sha512",
-    "C:\\Users\\MANH\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
-    "C:\\Users\\MANH\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+    "C:\\Users\\Admins\\.nuget\\packages\\controlzex\\5.0.1\\controlzex.5.0.1.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\fluent.ribbon\\9.0.0\\fluent.ribbon.9.0.0.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\materialdesigncolors\\2.0.4\\materialdesigncolors.2.0.4.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\materialdesignthemes\\4.3.0\\materialdesignthemes.4.3.0.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }
